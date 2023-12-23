@@ -1,7 +1,7 @@
 {
     "openapi": "3.0.0",
     "info": {
-        "title": "SendFromLesson",
+        "title": "Catalog  Products",
         "description": "\n * Для получения доступа к запросам нужно  получить токен (auth).\n * Полученный токен сохранить в authorize.",
         "version": "1.0.0"
     },
