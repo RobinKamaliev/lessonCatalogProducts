@@ -13,7 +13,7 @@ class ProductService
     const PAGINATE = 40;
     const PAGE = 1;
 
-    public function getProducts(array $data): LengthAwarePaginator
+    public function getProducts(array $data = []): LengthAwarePaginator
     {
         $paginate = $data['paginate'] ?? $this::PAGINATE;
         $page = $data['page'] ?? $this::PAGE;
